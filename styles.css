@@ -1,0 +1,67 @@
+@font-face {
+	font-family: ibm-plex-serif;
+	src: url("fonts/IBMPlexSerif-Text.ttf");
+}
+
+@font-face {
+	font-family: ibm-plex-serif-bold;
+	src: url("fonts/IBMPlexSerif-Bold.ttf");
+}
+
+body {
+	background: #EDEDED;
+	color: #3B4D37;
+}
+
+.dark_mode {
+	background: #1C1F1C;
+	color: #EDEDED;
+}
+
+.splashHeader {
+	padding: 8px;
+	font-family: ibm-plex-serif;
+	font-size: 12px;
+	width: 720px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.modeToggle {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 8px;
+	top: 8px;
+}
+
+div.body {
+	font-family: ibm-plex-serif;
+	font-size: 22px;
+	text-align: center;
+	width: 720px;
+	height: 360px;
+	margin: auto;
+}
+
+.webLink {
+	font-family: ibm-plex-serif-bold;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.socialIcon {
+	width: 40px;
+	height: 40px;
+}
+
+.dark_mode .socialIcon {
+	width: 40px;
+	height: 40px;
+	filter: invert(1);
+}
