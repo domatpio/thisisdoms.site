@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+<head>
+    <title>doms gallery</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+<header class="splashHeader">
+<h1>dom's gallery</span></h1>
+</header>
+
+<div class="body">
+	<a class="webLink" href="../index.html">/home </a><a class="webLink" href="unfinished.txt">/gallery </a><a class="webLink" href="unfinished.txt">/rants</a><br><br>
+</div>
+
+<img id="modeImg" onclick="darkModeToggle()" src="../img/moon.svg" class="modeToggle">
+<script>
+        
+function darkModeToggle() {
+	var mode = document.body;
+	mode.classList.toggle("dark_mode");
+	const modeImg = document.getElementById("modeImg");
+	
+	if (modeImg.src.includes("moon.svg")) {
+		modeImg.src = "../img/light-mode.svg";
+	} else {
+		modeImg.src = "../img/moon.svg";
+	}
+}			
+
+</script>
+</body>
+
+</html>
+

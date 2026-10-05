@@ -65,3 +65,15 @@ div.body {
 	height: 40px;
 	filter: invert(1);
 }
+
+.webLinkSttos {
+	font-family: ibm-plex-serif;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+}
+
+.blogEntry {
+	font-size: 18px;
+}
